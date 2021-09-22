@@ -10,7 +10,7 @@ public class Exercitii {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Alegeti exercitiul dorit (1 - 3): ");
 		int value = scanner.nextInt();
-
+		
 		switch (value) {
 		case 1:
 			exercitiu1();
@@ -32,16 +32,16 @@ public class Exercitii {
 		@SuppressWarnings("unused")
 		Scanner scanner = new Scanner(System.in);
 
-		Masina masina = new Masina();
-		masina.setCuloareString("rosu");
-		masina.setTip("Dacia");
-		masina.setViteza(25.0);
+		Masina car = new Masina();
+		car.setCuloareString("rosu");
+		car.setTip("Dacia");
+		car.setViteza(25.0);
 
-		System.out.println("Culoare masina: " + masina.getCuloareString());
-		System.out.println("Tip masina: " + masina.getTip());
-		System.out.println("Viteza masina: " + masina.getViteza());
+		System.out.println("Culoare masina: " + car.getCuloareString());
+		System.out.println("Tip masina: " + car.getTip());
+		System.out.println("Viteza masina: " + car.getViteza());
 
-		System.out.println(masina.toString());
+		System.out.println(car.toString());
 
 		System.out.print("Introduceti un numar: ");
 		int number = scanner.nextInt();
